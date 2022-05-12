@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.header {
+    height: 7vh;
+    background-color: #17a2b8; color: rgb(255, 255, 255);
+}
+.fa-power-off{
+    margin: 20px; 
+}
+.logout{
+    color: #ffffff;
+}
+.fa-bars, p {
+    float: right; 
+     margin: 20px; 
+}
+.fa-power-off:hover {
+ color: rgb(235, 235, 235);
+}
+h1 {
+    text-align: right;
+    margin: 20px; 
+
+}
+.main-body {
+    margin: 20px auto; 
+    width: 90%;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px #ccc;
+    border-top: 3px solid #17a2b8 ;
+    border-bottom: 3px solid #17a2b8 ;
+
+
+}
+.one {
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 1px dashed #ccc ;
+}
+
+li a {
+    color: rgb(253, 253, 253);
+}
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col {
+    flex-basis: 48%;
+    margin: 12px;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom:5%;
+    padding: 20px 12px;
+    text-align: center;
+}
+
+.box-c{
+  background-color: #17a2b8;
+    list-style: none;
+}
+
+.course-col .fa {
+    color: #17a2b8;
+    width: 100%;
+    font-size: 50px;
+    margin-bottom: 12px;
+}
